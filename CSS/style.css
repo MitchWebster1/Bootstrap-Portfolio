@@ -21,7 +21,8 @@ body {
 }
 
 .content {
-  background-color: orange;
+  background-color: #ffffff80;
+  border-radius: 10px;
 }
 
 .portfolio-pics img {
