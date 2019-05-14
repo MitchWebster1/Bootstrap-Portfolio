@@ -6,7 +6,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-image: url(images/Campsite.jpg);
+  background-image: url(./Images/Campsite.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
