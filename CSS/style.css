@@ -16,14 +16,12 @@ body {
   background-size: cover;
 }
 
-.container {
-  flex: 1 0 auto;
-}
-
 .content {
   background-color: #ffffff80;
   border-radius: 10px;
 }
+
+/* Banners */
 
 .portfolio-pics img {
   position: relative;
@@ -35,11 +33,20 @@ body {
   text-align: center;
 }
 
+/* Sticky Footer */
+
+.container {
+  flex: 1 0 auto;
+}
+
 .footer {
   flex-shrink: 0;
   text-align: center;
   width: 100%;
+  color: whitesmoke;
 }
+
+/* Help with picture sizing */
 
 @media screen and (min-width: 768px) {
   .img-thumbnail {
