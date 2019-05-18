@@ -23,12 +23,7 @@ body {
 
 /* Banners */
 
-.portfolio-pics img {
-  position: relative;
-}
-
-.portfolio-pics h3 {
-  position: absolute;
+.banners {
   width: 100%;
   text-align: center;
 }
@@ -44,18 +39,4 @@ body {
   text-align: center;
   width: 100%;
   color: whitesmoke;
-}
-
-/* Help with picture sizing */
-
-@media screen and (min-width: 768px) {
-  .img-thumbnail {
-    margin: auto;
-    max-width: 40%;
-    height: auto;
-  }
-
-  .card {
-    width: 40%;
-  }
 }
